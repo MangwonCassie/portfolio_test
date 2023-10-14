@@ -1,11 +1,11 @@
 const blogData = {
 	blogList: [
 		{
-			title: "Gulp Introduction 🙌",
-			group: "Gulp",
+			title: "Github Pages Deployment ✔",
+			group: "Deployment",
 			bgColor: "#926685",
-			description: "Gulp.js가 어떻게 webpack을 대체할 수 있는지, 또 어떻게 우리의 워크플로우를 자동화할 수 있을지 배워봅시다. 우리는 pug, scss, 최신 javascript들을 Gulp로 Compiling하겠습니다.",
-			link: "https://hjban-dev.github.io/2020-01-31-gulp-nomad_gulp1",
+			description: "무료호스팅 도구인 Github Pages를 통한 무료호스팅으로 배포하는 방법을 기재했습니다.",
+			link: "https://itscassiekim.tistory.com/263",
 		},
 		{
 			title: "GET방식을 이용한 정보의 전달, 쿼리스트링 🚩",

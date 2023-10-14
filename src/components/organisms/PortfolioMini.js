@@ -35,9 +35,9 @@ function PortfolioMini() {
 			<h2>ETC</h2>
 			<ul>
 				<li>
-					<a href="http://coner.co.kr/project/samsung_galaxy/friday/" target="_blank" rel="noopener noreferrer">
+					<a href="" target="_blank" rel="noopener noreferrer">
 						<i className="far fa-file-alt"></i>
-						<p>Samsung Galaxy-Watch, Buds</p>
+						<p>Wordle Mini Project</p>
 					</a>
 				</li>
 				<li>
