@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components";
 
 function Preloader() {
 	const [Mount, setMount] = useState(false);
+
 	useEffect(() => {
 		setTimeout(() => {
 			setMount(true);
@@ -34,7 +35,8 @@ const StyledPreloader = styled.div`
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: #111;
+	/*background-color: #111;*/
+	background-color: #Bb2649;
 	transform-origin: bottom;
 	z-index: 111111;
 	.black_wall {

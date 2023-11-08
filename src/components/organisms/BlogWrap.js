@@ -23,7 +23,7 @@ function BlogWrap() {
 			<ul>{blogList}</ul>
 			<div className="more">
 				{/* eslint-disable-next-line react/jsx-no-target-blank */}
-				<a href="https://mangwoncassie.github.io/" target="_blank">
+				<a href="https://itscassiekim.tistory.com/" target="_blank">
 					MORE POST
 				</a>
 			</div>
