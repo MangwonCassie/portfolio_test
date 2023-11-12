@@ -70,23 +70,25 @@ const portfolioData = {
 				
 			],
 		},
-		// {
-		// 	name: "Instagram Clone",
-		// 	period: "2021.01 - 2021.03",
-		// 	project: "Toy",
-		// 	logo: "instagram",
-		// 	percent: "100%",
-		// 	github: "https://github.com/hjban-dev/Instagram_clone",
-		// 	description: "유명 SNS 앱 Instagram 클론 프로젝트입니다. (제작중입니다) ",
-		// 	tech: ["Html & CSS", "Javascript", "React", "Redux", "Node.js", "MongoDB", "Mongoose"],
-		// 	image: [
-		// 		{
-		// 			name: "",
-		// 			tit: "제작중입니다",
-		// 			desc: "😥😥😥",
-		// 		},
-		// 	],
-		// },
+		{
+			name: "Wordle Mini Project",
+			period: "2023.06 - 2023.06",
+			project: "Toy",
+			logo: "",
+			percent: "100%",
+			link: "",
+			github: "https://github.com/MangwonCassie/MiniProject/tree/wordle",
+			description: "단어를 맞추는 게임 프로젝트입니다.\n 약 1주동안 진행하였습니다.",
+			tech: ["Html & CSS", "Javascript"],
+			image: [
+				{
+					name: "wordle/main1.JPG",
+					tit: "메인페이지",
+					desc: "글자를 쓰고 엔터를 치면 맞는 단어를 입력했을 경우 색깔이 바뀝니다.\n" ,
+				},
+			],
+		},
+		
 		// {
 		// 	name: "Youtube Clone",
 		// 	project: "Toy",
