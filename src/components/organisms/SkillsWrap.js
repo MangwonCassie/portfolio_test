@@ -114,3 +114,6 @@ const StyledSkillsWrap = styled.div`
 `;
 
 export default SkillsWrap;
+
+
+

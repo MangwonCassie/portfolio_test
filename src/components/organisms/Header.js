@@ -11,9 +11,26 @@ function Header(props) {
 		return () => setLoad(false);
 	}, []);
 
+	const handleLanguageChange = () => {
+		// 여기서 language 변경을 처리하는 함수를 호출
+		if (props.setLanguage) {
+			props.setLanguage();
+		}
+	};
+
 	return (
 		<StyledHeader className={`${Load ? "on" : ""}`}>
 			<ul>
+				<li className={props.page === "home" ? "active" : ""}>
+					{/* Eng or Kor 부분 클릭 시 handleLanguageChange 함수 호출 */}
+					<div onClick={handleLanguageChange}>
+						<Link>
+						<span>Language</span>
+						{props.language === "kor" ? "Eng" : "Kor"}
+						<i className="fas fa-globe"></i>
+						</Link>
+					</div>
+				</li>
 				<li className={props.page === "home" ? "active" : ""}>
 					<Link to="/">
 						<span>Home</span>
