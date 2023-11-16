@@ -30,6 +30,17 @@ const skillData = {
 			detail: ["git flow가 무엇인지 알고 있으며 왜 사용해야 하는지 이해하고 있습니다.", "깃과 깃헙을 사용하여 다른 개발자들과 협업을 할 수 있습니다.", "깃 리베이스를 할 수 있으며 스쿼시를 통한 커밋 관리 경험이 있습니다."],
 			icon: "fab fa-git-square",
 		},
+		{
+			label: "MongoDB",
+			detail: ["MongoDB에서 API (CRUD) 가 무엇인지 알고 있으며 왜 사용해야 하는지 이해하고 있습니다.", "스키마 객체를 원하는 데이터 구조로 다룰 수 있으며 $match, $group, $sort, $limit 등과 같은 연산자를 사용하여 간단한 쿼리문으로 데이터를 가져올 수 있고, 프론트엔드 파트와 연결할 수 있습니다." ],
+			icon: "fas solid fa-database",
+		},
+		{
+			label: "OracleDB",
+			detail: ["WHERE, GROUP BY, JOIN, ORDER BY 구문을 적절히 사용하여 원하는 조건에 맞게 데이터를 조회 할 수 있습니다", "서브쿼리 개념을 이해하고 있으며, 중첩된 질의를 실행할 수 있습니다.", "JDBC 드라이버를 이용해 ORACLE DB와 연결할 수 있고, CONNECTION 객체를 이용하여 연결을 관리할 수 있습니다.",
+			"Statement 객체를 이용해 SQL 쿼리를 실행할 수 있고, 그 결과를 RESULT SET에 담아 데이터값을 조회할 수 있습니다."],
+			icon: "fas solid fa-database",
+		},
 	],
 
 
@@ -51,3 +62,5 @@ const skillData = {
 };
 
 export default skillData;
+
+
