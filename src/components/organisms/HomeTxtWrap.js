@@ -2,8 +2,11 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Link } from "react-router-dom";
 import Heading from "../atoms/Heading";
+import { useTranslation } from "react-i18next";// 추가
 
-function AboutTxtWrap() {
+function HomeTxtWrap() {
+	const { t } = useTranslation();
+
 	return (
 		<StyledHome>
 			<div className="left">
@@ -23,9 +26,7 @@ function AboutTxtWrap() {
 					</Heading>
 					{/* <p>I’m a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p> */}
 					<p>
-						안녕하세요, 저는 김여울입니다. 😀
-						<br />
-						새로운 기술에 관심이 많으며 동료들과의 커뮤니케이션과 상호 피드백 및 리뷰를 좋아합니다. 현재 프론트엔드 개발자로 구직중입니다. 맡은 일에 자부심을 갖고 도전을 경험할 수 있는 회사에서 일하고 싶습니다.
+					{t("about.greeting")}
 					</p>
 				</div>
 				<section>
@@ -41,7 +42,7 @@ function AboutTxtWrap() {
 							<span>Phone : </span>010.6257.1107
 						</li>
 						<li>
-							<span>Address : </span>서울시 마포구
+							<span>Address : </span>{t("about.address")}
 						</li>
 						<li>
 							<span>Email : </span>dudnfsla1@naver.com
@@ -366,4 +367,4 @@ const StyledHome = styled.main`
 	}
 `;
 
-export default AboutTxtWrap;
+export default HomeTxtWrap;

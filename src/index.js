@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import config from "./assets/config";
 import { ThemeProvider } from "styled-components";
 
+
 ReactDOM.render(
 	<React.StrictMode>
 		<ThemeProvider theme={config}>

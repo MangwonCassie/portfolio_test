@@ -1,22 +1,91 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { withTranslation } from "react-i18next"; // withTranslation 추가
+
 
 function Header(props) {
 	const [Load, setLoad] = useState(false);
 	useEffect(() => {
 		setTimeout(() => {
-			setLoad(true);
+		  setLoad(true);
 		}, 700);
 		return () => setLoad(false);
-	}, []);
+	  }, []);
+
+
 
 	const handleLanguageChange = () => {
-		// 여기서 language 변경을 처리하는 함수를 호출
+		// i18n을 이용하여 언어 변경 withTranslation 얘가 props에 i18n 가져옴
+		const { i18n } = props;
+		console.log(props+"propspage");
+
+		const currentLanguage = i18n.language;
+		const newLanguage = currentLanguage === "ko" ? "en" : "ko";
+
+		i18n.changeLanguage(newLanguage);
 		if (props.setLanguage) {
-			props.setLanguage();
+			props.setLanguage(newLanguage);
 		}
-	};
+
+		  // 상태 변경 후 반환되는 컴포넌트에 영향을 주기 위해 여기서 스타일 변경을 구현
+		  setLoad(true);
+
+	}
+		
+
+
+
+
+		return (
+			<StyledHeader className={`${Load ? "on" : ""}`}>
+				<ul>
+					<li className={props.page === "home" ? "active" : ""}>
+						{/* Eng or Kor 부분 클릭 시 handleLanguageChange 함수 호출 */}
+						<div onClick={handleLanguageChange}>
+							<Link to="/">
+								<span>Language</span>
+								{props.i18n.language === "ko" ? "en" : "ko"}
+								<i className="fas fa-globe"></i>
+							</Link>
+						</div>
+					</li>
+					<li className={props.page === "home" ? "active" : ""}>
+						<Link to="/">
+							<span>Home</span>
+							<i className="fas fa-home"></i>
+						</Link>
+					</li>
+					<li className={props.page === "about" ? "active" : ""}>
+						<Link to="/about">
+							<span>About</span>
+							<i className="fas fa-user"></i>
+						</Link>
+					</li>
+					<li className={props.page === "projects" ? "active" : ""}>
+						<Link to="/projects">
+							<span>Projects</span>
+							<i className="fas fa-tasks"></i>
+						</Link>
+					</li>
+					<li className={props.page === "blog" ? "active" : ""}>
+						<Link to="/blog">
+							<span>Blog</span>
+							<i className="fas fa-book"></i>
+						</Link>
+					</li>
+					<li>
+						{/* eslint-disable-next-line react/jsx-no-target-blank */}
+						<a href="https://github.com/mangwoncassie" target="_blank">
+							<span>Github</span>
+							<i className="fab fa-github"></i>
+						</a>
+					</li>
+				</ul>
+			</StyledHeader>
+		);
+	
+
 
 	return (
 		<StyledHeader className={`${Load ? "on" : ""}`}>
@@ -25,9 +94,9 @@ function Header(props) {
 					{/* Eng or Kor 부분 클릭 시 handleLanguageChange 함수 호출 */}
 					<div onClick={handleLanguageChange}>
 						<Link>
-						<span>Language</span>
-						{props.language === "kor" ? "Eng" : "Kor"}
-						<i className="fas fa-globe"></i>
+							<span>Language</span>
+							{props.i18n.language === "ko" ? "en" : "ko"}
+							<i className="fas fa-globe"></i>
 						</Link>
 					</div>
 				</li>
@@ -65,7 +134,7 @@ function Header(props) {
 			</ul>
 		</StyledHeader>
 	);
-}
+};
 
 const StyledHeader = styled.header`
 	position: fixed;
@@ -139,4 +208,4 @@ const StyledHeader = styled.header`
 	}
 `;
 
-export default Header;
+export default withTranslation()(Header);
