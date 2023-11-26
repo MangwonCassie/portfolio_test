@@ -66,6 +66,16 @@ const portfolioData = {
 					tit: "장바구니페이지",
 					desc: "장바구니 페이지 입니다.\n" ,
 				},
+				{
+					name: "ecommerce/page2_api.gif",
+					tit: "POSTMAN API",
+					desc: "POSTMAN 툴을 이용해서 API를 만들었습니다.\n" ,
+				},
+				{
+					name: "ecommerce/page2_stripe.gif",
+					tit: "결제툴 STRIPE",
+					desc: "Stripe 툴을 이용해서 결제기능을 만들었습니다.\n" ,
+				},
 				
 				
 			],

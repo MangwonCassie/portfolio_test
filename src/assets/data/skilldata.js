@@ -45,6 +45,12 @@ const skillData = {
 
 
 	educationList: [
+		{
+			period: "2023.11 - ing",
+			position: "온라인 부트캠프",
+			company: "슈퍼코딩",
+			explain: "JAVA, MYSQL, SPRING BOOT, DB 모델링 그룹 프로젝트 과정 커리큘럼에서 백엔드 웹사이트를 개발할 수 있는 지식들을 익혔습니다. ",
+		},
 	
 		{
 			period: "2023.06 - ing",
