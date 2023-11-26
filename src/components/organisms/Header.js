@@ -87,53 +87,53 @@ function Header(props) {
 	
 
 
-	return (
-		<StyledHeader className={`${Load ? "on" : ""}`}>
-			<ul>
-				<li className={props.page === "home" ? "active" : ""}>
-					{/* Eng or Kor 부분 클릭 시 handleLanguageChange 함수 호출 */}
-					<div onClick={handleLanguageChange}>
-						<Link>
-							<span>Language</span>
-							{props.i18n.language === "ko" ? "en" : "ko"}
-							<i className="fas fa-globe"></i>
-						</Link>
-					</div>
-				</li>
-				<li className={props.page === "home" ? "active" : ""}>
-					<Link to="/">
-						<span>Home</span>
-						<i className="fas fa-home"></i>
-					</Link>
-				</li>
-				<li className={props.page === "about" ? "active" : ""}>
-					<Link to="/about">
-						<span>About</span>
-						<i className="fas fa-user"></i>
-					</Link>
-				</li>
-				<li className={props.page === "projects" ? "active" : ""}>
-					<Link to="/projects">
-						<span>Projects</span>
-						<i className="fas fa-tasks"></i>
-					</Link>
-				</li>
-				<li className={props.page === "blog" ? "active" : ""}>
-					<Link to="/blog">
-						<span>Blog</span>
-						<i className="fas fa-book"></i>
-					</Link>
-				</li>
-				<li>
-					{/* eslint-disable-next-line react/jsx-no-target-blank */}
-					<a href="https://github.com/mangwoncassie" target="_blank">
-						<span>Github</span>
-						<i className="fab fa-github"></i>
-					</a>
-				</li>
-			</ul>
-		</StyledHeader>
-	);
+	// return (
+	// 	<StyledHeader className={`${Load ? "on" : ""}`}>
+	// 		<ul>
+	// 			<li className={props.page === "home" ? "active" : ""}>
+	// 				{/* Eng or Kor 부분 클릭 시 handleLanguageChange 함수 호출 */}
+	// 				<div onClick={handleLanguageChange}>
+	// 					<Link>
+	// 						<span>Language</span>
+	// 						{props.i18n.language === "ko" ? "en" : "ko"}
+	// 						<i className="fas fa-globe"></i>
+	// 					</Link>
+	// 				</div>
+	// 			</li>
+	// 			<li className={props.page === "home" ? "active" : ""}>
+	// 				<Link to="/">
+	// 					<span>Home</span>
+	// 					<i className="fas fa-home"></i>
+	// 				</Link>
+	// 			</li>
+	// 			<li className={props.page === "about" ? "active" : ""}>
+	// 				<Link to="/about">
+	// 					<span>About</span>
+	// 					<i className="fas fa-user"></i>
+	// 				</Link>
+	// 			</li>
+	// 			<li className={props.page === "projects" ? "active" : ""}>
+	// 				<Link to="/projects">
+	// 					<span>Projects</span>
+	// 					<i className="fas fa-tasks"></i>
+	// 				</Link>
+	// 			</li>
+	// 			<li className={props.page === "blog" ? "active" : ""}>
+	// 				<Link to="/blog">
+	// 					<span>Blog</span>
+	// 					<i className="fas fa-book"></i>
+	// 				</Link>
+	// 			</li>
+	// 			<li>
+	// 				{/* eslint-disable-next-line react/jsx-no-target-blank */}
+	// 				<a href="https://github.com/mangwoncassie" target="_blank">
+	// 					<span>Github</span>
+	// 					<i className="fab fa-github"></i>
+	// 				</a>
+	// 			</li>
+	// 		</ul>
+	// 	</StyledHeader>
+	// );
 };
 
 const StyledHeader = styled.header`
