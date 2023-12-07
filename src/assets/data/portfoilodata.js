@@ -107,7 +107,7 @@ const portfolioData = {
 			link: "",
 			github: "",
 			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 팀원으로 2주 동안 진행하였습니다. 상품상세페이지를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
-			tech: ["Html & CSS", "Javascript"],
+			tech: ["Html & CSS", "Javascript", "React"],
 			image: [
 				{
 					name: "nikeclone/main1.JPG",
