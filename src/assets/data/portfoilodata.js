@@ -98,46 +98,35 @@ const portfolioData = {
 				},
 			],
 		},
+		{
+			name: "Nike E-Commerce Website Clone Project",
+			period: "2023.11 - 2023.12",
+			project: "Toy",
+			logo: "",
+			percent: "30%",
+			link: "",
+			github: "",
+			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 팀원으로 2주 동안 진행하였습니다. 상품상세페이지를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
+			tech: ["Html & CSS", "Javascript"],
+			image: [
+				{
+					name: "nikeclone/main1.JPG",
+					tit: "메인페이지",
+					desc: "react-swiper, styled-components을 통한 메인 페이지 구현\n" ,
+				},
+				{
+					name: "nikeclone/productdetail1.JPG",
+					tit: "상품상세페이지",
+					desc: " styled-components을 통한 상품 상세 페이지 구현, useState, useEffect를 이용한 반응형 구현\n" ,
+				},
+				{
+					name: "nikeclone/notion1.JPG",
+					tit: "노션페이지",
+					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
+				},
+			],
+		},
 		
-		// {
-		// 	name: "Youtube Clone",
-		// 	project: "Toy",
-		// 	logo: "youtube",
-		// 	period: "2020.12 - 2021.01",
-		// 	percent: "100%",
-		// 	github: "https://github.com/hjban-dev/Youtube_clone",
-		// 	description: "구글의 동영상 사이트인 YOUTUBE 클론 프로젝트입니다.\n 동영상 업로드, 댓글, 좋아요 등의 기능을 개발하였습니다. 기간은 약 한달정도 소요되었고, 혼자 제작하였습니다.",
-		// 	tech: ["Html & CSS", "Javascript", "React", "Redux", "Node.js", "MongoDB", "Mongoose"],
-		// 	image: [
-		// 		{
-		// 			name: "youtube/youtube1.gif",
-		// 			tit: "회원가입, 로그인",
-		// 			desc: "회원가입 창에서 입력한 정보를 MongoDB에 저장하여 회원가입이 실행됩니다.\n DB의 정보들을 토대로 로그인이 실행됩니다.",
-		// 		},
-		// 		{
-		// 			name: "youtube/youtube2.gif",
-		// 			tit: "동영상 업로드 ",
-		// 			desc: "업로드 페이지는 로그인이 되어 있는 사용자만 접근 가능하며, 컴퓨터에 있는 동영상을 업로드 할 수 있습니다. \n제목은 동영상의 제목으로 기본 생성되지만, 변경이 가능합니다.",
-		// 		},
-		// 		{
-		// 			name: "youtube/youtube3.gif",
-		// 			tit: "댓글",
-		// 			desc:
-		// 				"업로드가 된 동영상에 댓글을 입력할 수 있습니다. \n댓글 데이터는 입력자와 비디오 정보와 함께 DB에 저장되고, DB 정보를 토대로 관련 댓글 정보를 추출하여 댓글 영역에 띄워줍니다. 댓글 데이터는 입력자의 정보와 함께 내림차순으로 노출됩니다.",
-		// 		},
-		// 		{
-		// 			name: "youtube/youtube4.gif",
-		// 			tit: "좋아요",
-		// 			desc:
-		// 				"영상과 댓글에 모두 좋아요 기능이 가능합니다. \n좋아요를 누른 입력자와 비디오 정보 또는 댓글 정보가 함께 DB에 저장되고, 비디오와 댓글 정보를 토대로 관련 좋아요 정보의 갯수를 파악하여 보여줍니다. 사용자가 이전에 좋아요를 누른 경우 active 효과가 실행됩니다.",
-		// 		},
-		// 		{
-		// 			name: "youtube/youtube5.gif",
-		// 			tit: "구독",
-		// 			desc: "내가 아닌 다른 사용자의 동영상에서 구독버튼이 노출됩니다. \n이미 구독을 누른 경우 구독 버튼은 비활성화 되어있습니다. 구독을 하면 구독 페이지에서 내가 구독한 사람의 영상을 볼 수 있습니다.",
-		// 		},
-		// 	],
-		// },
 		
 		
 		

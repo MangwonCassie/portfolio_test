@@ -1,6 +1,11 @@
 const skillData = {
 	skillList: [
 		{
+			label: "JAVA",
+			detail: ["OOP특징과 데이터 탙입, 라이브러리를 이용하여 구현에 적용 가능합니다.", "메모리 구조를 이해하고 싱글톤디자인패턴을 통한 간단한 애플리케이션 제작하는 코딩이 가능합니다. ", "상속, 추상클래스를 활용한 기본적인 로직 구현이 가능합니다."],
+			icon: "fab fa-java",
+		},
+		{
 			label: "HTML/CSS",
 			detail: ["원하는 UI를 실용적이고, 익숙하게 만들어 낼 수 있습니다.", "템플릿 엔진(node js)의 사용이 가능합니다.", "Css 최신 문법이 숙지되어 있고 Css 프리프로세서 Sass를 사용할 수 있습니다."],
 			icon: "fab fa-html5",
