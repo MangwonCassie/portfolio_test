@@ -104,20 +104,35 @@ const portfolioData = {
 			project: "Toy",
 			logo: "",
 			percent: "30%",
-			link: "",
-			github: "",
+			link: "https://cassie1107.github.io/",
+			github: "https://github.com/SC-Front-End/Nike-Clone",
 			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 팀원으로 2주 동안 진행하였습니다. 상품상세페이지를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
 			tech: ["Html & CSS", "Javascript", "React"],
 			image: [
+				{
+					name: "nikeclone/nikecloneproject.GIF",
+					tit: "전체구현영상",
+					desc: "전체 구현 영상입니다.\n" ,
+				},
 				{
 					name: "nikeclone/main1.JPG",
 					tit: "메인페이지",
 					desc: "react-swiper, styled-components을 통한 메인 페이지 구현\n" ,
 				},
 				{
+					name: "nikeclone/productlist1.JPG",
+					tit: "상품목록페이지",
+					desc: " styled-components을 통한 상품 상세 페이지 구현, useState, useEffect를 이용한 데이터 정렬기능\n" ,
+				},
+				{
 					name: "nikeclone/productdetail1.JPG",
 					tit: "상품상세페이지",
 					desc: " styled-components을 통한 상품 상세 페이지 구현, useState, useEffect를 이용한 반응형 구현\n" ,
+				},
+				{
+					name: "nikeclone/event1.JPG",
+					tit: "이벤트페이지",
+					desc: " js파일과 css파일을 분리해서 이벤트페이지를 구현했습니다.\n" ,
 				},
 				{
 					name: "nikeclone/notion1.JPG",
@@ -134,3 +149,6 @@ const portfolioData = {
 };
 
 export default portfolioData;
+
+
+
