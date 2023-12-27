@@ -32,8 +32,8 @@ const portfolioData = {
 			logo: "",
 			percent: "100%",
 			link: "",
-			github: "https://github.com/MangwonCassie/MiniProject/tree/ecommerce",
-			description: "반응형 쇼핑몰 프로젝트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 3주동안 진행하였습니다.",
+			github: "https://github.com/MangwonCassie/MiniProject/tree/3rd_ecommerce",
+			description: "반응형 쇼핑몰 프로젝트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 2개월 동안 진행하였습니다.",
 			tech: ["Html & CSS", "Javascript", "React", "Node.js", "MongoDB", "Express"],
 			image: [
 				{
@@ -76,6 +76,12 @@ const portfolioData = {
 					tit: "결제툴 STRIPE",
 					desc: "Stripe 툴을 이용해서 결제기능을 만들었습니다.\n" ,
 				},
+				{
+					name: "ecommerce/page2_mongodb1.JPG",
+					tit: "MongoDB 데이터",
+					desc: "MongoDb로 daba를 관리했습니다.\n" ,
+				},
+				
 				
 				
 			],
@@ -106,28 +112,23 @@ const portfolioData = {
 			percent: "30%",
 			link: "https://cassie1107.github.io/",
 			github: "https://github.com/SC-Front-End/Nike-Clone",
-			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 팀원으로 2주 동안 진행하였습니다. 상품상세페이지를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
+			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 팀원으로 2주 동안 진행하였습니다. 상품상세페이지와 배포를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
 			tech: ["Html & CSS", "Javascript", "React"],
 			image: [
 				{
-					name: "nikeclone/nikecloneproject.GIF",
-					tit: "전체구현영상",
-					desc: "전체 구현 영상입니다.\n" ,
-				},
-				{
 					name: "nikeclone/main1.JPG",
 					tit: "메인페이지",
-					desc: "react-swiper, styled-components을 통한 메인 페이지 구현\n" ,
+					desc: "react-swiper, react-share, styled-components라이브러리를 통해 메인 페이지 구현했습니다.\n" ,
 				},
 				{
 					name: "nikeclone/productlist1.JPG",
 					tit: "상품목록페이지",
-					desc: " styled-components을 통한 상품 상세 페이지 구현, useState, useEffect를 이용한 데이터 정렬기능\n" ,
+					desc: " styled-components, useState, useEffect를 이용한 데이터 정렬기능이 있는 상품 목록페이지를 구현했습니다.\n" ,
 				},
 				{
 					name: "nikeclone/productdetail1.JPG",
 					tit: "상품상세페이지",
-					desc: " styled-components을 통한 상품 상세 페이지 구현, useState, useEffect를 이용한 반응형 구현\n" ,
+					desc: " styled-components, useState, useEffect를 이용해서 반응형을 구현하고, 컴포넌트를 모듈화했습니다.\n" ,
 				},
 				{
 					name: "nikeclone/event1.JPG",
