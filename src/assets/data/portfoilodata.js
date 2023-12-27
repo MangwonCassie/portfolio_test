@@ -27,7 +27,7 @@ const portfolioData = {
 		},
 		{
 			name: "Cassie Ecommerce",
-			period: "2023.11 - 2023.11",
+			period: "2023.11 - 2024.01",
 			project: "Toy",
 			logo: "",
 			percent: "100%",
