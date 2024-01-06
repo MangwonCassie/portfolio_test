@@ -155,7 +155,7 @@ const portfolioData = {
 			percent: "30%",
 			link: "",
 			github: "https://github.com/SC-Front-End/Tomorrow-House",
-			description: "omorrow House E-commerce Website Clone Project.\n 약 총 8명의 팀원으로 3주 동안 진행하였습니다. 상품목록페이지, 결제완료페이지를 담당했고 프록시 설정 및 rest api 연결 부분을 맡았습니다.",
+			description: "omorrow House E-commerce Website Clone Project.\n 약 총 8명의 팀원으로 3주 동안 진행하였습니다. 베스프상품목록페이지, 결제완료페이지를 담당했고 프록시 설정 및 rest api 연결 부분을 맡았습니다.",
 			tech: ["Html & CSS", "Javascript", "React", "Java", "MariaDB", "Spring Boot", "Amazon ec2"],
 			image: [
 				{
