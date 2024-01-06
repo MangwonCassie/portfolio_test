@@ -174,9 +174,14 @@ const portfolioData = {
 					desc: "인풋 입력값(아이디, 패스워드 등) 유효성 검사와 그에 따른 메시지에 중점을 두었습니다. \n" ,
 				},
 				{
+					name: "Tomorrowhouse/list1.PNG",
+					tit: "상품목록페이지",
+					desc: "상위로 이동할 수 있는 Scroll, 카테고리에 따른 필터리 구현, useInifiniteQuery를 활용한 무한스크롤기능을 구현했습니다.\n" ,
+				},
+				{
 					name: "Tomorrowhouse/detail1.PNG",
 					tit: "상품상세페이지",
-					desc: " js파일과 css파일을 분리해서 이벤트페이지를 구현했습니다.\n" ,
+					desc: "상위로 이동할 수 있는 ScrollButton, 옵션 및 수량에 따른 주문금액계산\n" ,
 				},
 				{
 					name: "Tomorrowhouse/loading1.PNG",
@@ -186,12 +191,12 @@ const portfolioData = {
 				{
 					name: "Tomorrowhouse/cart1.PNG",
 					tit: "장바구니페이지",
-					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
+					desc: "Redux Toolkit를 사용하여 redux 스토어를 설정하고 두개의 리듀서를 정의했고, 배열형태의 상품정보 데이터를 정의해서 정적데이터를 불러왔습니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/cart1.PNG",
+					name: "Tomorrowhouse/payment.PNG",
 					tit: "결제완료페이지",
-					desc: " 사진변경요망, React Router 라이브러리의 useNavigate 훅을 이용해 상품목록페이지에 연결되도록 구현\n" ,
+					desc: " 사진변경요망, React Router 라이브러리의 useNavigate 훅을 이용해 상품상세페이지에 연결되도록 구현\n" ,
 				},
 				{
 					name: "Tomorrowhouse/notion1.PNG",
@@ -199,7 +204,7 @@ const portfolioData = {
 					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
 				},
 				{
-					name: "Tomorrowhouse/ppt1.PNG",
+					name: "Tomorrowhouse/ppt1.JPG",
 					tit: "발표자료",
 					desc: " 개발 동기 및 각 기능 별 정리한 ppt 페이지 자료 (직접 제작했습니다.)\n" ,
 				},
