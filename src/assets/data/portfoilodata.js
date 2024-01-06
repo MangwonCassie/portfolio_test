@@ -147,6 +147,65 @@ const portfolioData = {
 				},
 			],
 		},
+		{
+			name: "Tomorrow House E-commerce Website Clone Project",
+			period: "2023.12 - 2023.12",
+			project: "Toy",
+			logo: "",
+			percent: "30%",
+			link: "",
+			github: "https://github.com/SC-Front-End/Tomorrow-House",
+			description: "omorrow House E-commerce Website Clone Project.\n 약 총 8명의 팀원으로 3주 동안 진행하였습니다. 상품목록페이지, 결제완료페이지를 담당했고 프록시 설정 및 rest api 연결 부분을 맡았습니다.",
+			tech: ["Html & CSS", "Javascript", "React", "Java", "MariaDB", "Spring Boot", "Amazon ec2"],
+			image: [
+				{
+					name: "Tomorrowhouse/main1.PNG",
+					tit: "메인페이지",
+					desc: "state 및 effect를 사용하여 화면에 특정 알림을 띄우고 일정 시간이 지난 후 해당 알림을 자동으로 숨기는 기능 구현했습니다. swiper를 사용하여 banner를 기능을 구현했습니다.\n" ,
+				},
+				{
+					name: "Tomorrowhouse/best1.PNG",
+					tit: "베스트상품목록페이지",
+					desc: "공동모듈화에 초점을 맞춰서 컴포넌트를 재사용할 수 있게 구현했습니다. React Router 라이브러리의 useNavigate 훅을 가져와서 사용자가 애플리케이션에서 다른 경로로 이동할때 필요한 기능을 구현했습니다. Axios 사용하여 rest api 를 통한 데이터 처리, intersection-observer api를 이용한 infinite scroll 구현\n" ,
+				},
+				{
+					name: "Tomorrowhouse/login1.PNG",
+					tit: "로그인페이지",
+					desc: "인풋 입력값(아이디, 패스워드 등) 유효성 검사와 그에 따른 메시지에 중점을 두었습니다. \n" ,
+				},
+				{
+					name: "Tomorrowhouse/detail1.PNG",
+					tit: "상품상세페이지",
+					desc: " js파일과 css파일을 분리해서 이벤트페이지를 구현했습니다.\n" ,
+				},
+				{
+					name: "Tomorrowhouse/loading1.PNG",
+					tit: "상품상세페이지(로딩)",
+					desc: "Skeleton UI를 통한 로딩처리 기능을 구현했습니다. \n" ,
+				},
+				{
+					name: "Tomorrowhouse/cart1.PNG",
+					tit: "장바구니페이지",
+					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
+				},
+				{
+					name: "Tomorrowhouse/cart1.PNG",
+					tit: "결제완료페이지",
+					desc: " 사진변경요망, React Router 라이브러리의 useNavigate 훅을 이용해 상품목록페이지에 연결되도록 구현\n" ,
+				},
+				{
+					name: "Tomorrowhouse/notion1.PNG",
+					tit: "노션페이지",
+					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
+				},
+				{
+					name: "Tomorrowhouse/ppt1.PNG",
+					tit: "발표자료",
+					desc: " 개발 동기 및 각 기능 별 정리한 ppt 페이지 자료 (직접 제작했습니다.)\n" ,
+				},
+			],
+		},
+		
 		
 		
 		
