@@ -166,7 +166,7 @@ const portfolioData = {
 				{
 					name: "Tomorrowhouse/best1.PNG",
 					tit: "베스트상품목록페이지",
-					desc: "공동모듈화에 초점을 맞춰서 컴포넌트를 재사용할 수 있게 구현했습니다. React Router 라이브러리의 useNavigate 훅을 가져와서 사용자가 애플리케이션에서 다른 경로로 이동할때 필요한 기능을 구현했습니다. Axios 사용하여 rest api 를 통한 데이터 처리, intersection-observer api를 이용한 infinite scroll 구현\n" ,
+					desc: "공동모듈화에 초점을 맞춰서 컴포넌트를 재사용할 수 있게 구현했습니다. React Router 라이브러리의 useNavigate 훅을 가져와서 사용자가 애플리케이션에서 다른 경로로 이동할때 필요한 기능을 구현했습니다. Axios 사용하여 rest api 를 통한 데이터 처리, intersection-observer api를 이용한 infinite scroll 구현했습니다.\n" ,
 				},
 				{
 					name: "Tomorrowhouse/login1.PNG",
@@ -181,7 +181,7 @@ const portfolioData = {
 				{
 					name: "Tomorrowhouse/detail1.PNG",
 					tit: "상품상세페이지",
-					desc: "상위로 이동할 수 있는 ScrollButton, 옵션 및 수량에 따른 주문금액계산\n" ,
+					desc: "상위로 이동할 수 있는 ScrollButton, 옵션 및 수량에 따른 주문금액계산을 할 수 있게 기능을 구현했습니다.\n" ,
 				},
 				{
 					name: "Tomorrowhouse/loading1.PNG",
@@ -196,12 +196,12 @@ const portfolioData = {
 				{
 					name: "Tomorrowhouse/payment.PNG",
 					tit: "결제완료페이지",
-					desc: " 사진변경요망, React Router 라이브러리의 useNavigate 훅을 이용해 상품상세페이지에 연결되도록 구현\n" ,
+					desc: " 사진변경요망, React Router 라이브러리의 useNavigate 훅을 이용해 상품상세페이지에 연결되도록 구현했습니다.\n" ,
 				},
 				{
 					name: "Tomorrowhouse/notion1.PNG",
 					tit: "노션페이지",
-					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
+					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴입니다.\n" ,
 				},
 				{
 					name: "Tomorrowhouse/ppt1.JPG",
