@@ -159,52 +159,52 @@ const portfolioData = {
 			tech: ["Html & CSS", "Javascript", "React", "Java", "MariaDB", "Spring Boot", "Amazon ec2"],
 			image: [
 				{
-					name: "Tomorrowhouse/main1.PNG",
+					name: "Tomorrowhouse/main1.png",
 					tit: "메인페이지",
 					desc: "state 및 effect를 사용하여 화면에 특정 알림을 띄우고 일정 시간이 지난 후 해당 알림을 자동으로 숨기는 기능 구현했습니다. swiper를 사용하여 banner를 기능을 구현했습니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/best1.PNG",
+					name: "Tomorrowhouse/best1.png",
 					tit: "베스트상품목록페이지",
 					desc: "공동모듈화에 초점을 맞춰서 컴포넌트를 재사용할 수 있게 구현했습니다. React Router 라이브러리의 useNavigate 훅을 가져와서 사용자가 애플리케이션에서 다른 경로로 이동할때 필요한 기능을 구현했습니다. Axios 사용하여 rest api 를 통한 데이터 처리, intersection-observer api를 이용한 infinite scroll 구현했습니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/login1.PNG",
+					name: "Tomorrowhouse/login1.png",
 					tit: "로그인페이지",
 					desc: "인풋 입력값(아이디, 패스워드 등) 유효성 검사와 그에 따른 메시지에 중점을 두었습니다. \n" ,
 				},
 				{
-					name: "Tomorrowhouse/list1.PNG",
+					name: "Tomorrowhouse/list1.png",
 					tit: "상품목록페이지",
 					desc: "상위로 이동할 수 있는 Scroll, 카테고리에 따른 필터리 구현, useInifiniteQuery를 활용한 무한스크롤기능을 구현했습니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/detail1.PNG",
+					name: "Tomorrowhouse/detail1.png",
 					tit: "상품상세페이지",
 					desc: "상위로 이동할 수 있는 ScrollButton, 옵션 및 수량에 따른 주문금액계산을 할 수 있게 기능을 구현했습니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/loading1.PNG",
+					name: "Tomorrowhouse/loading1.png",
 					tit: "상품상세페이지(로딩)",
 					desc: "Skeleton UI를 통한 로딩처리 기능을 구현했습니다. \n" ,
 				},
 				{
-					name: "Tomorrowhouse/cart1.PNG",
+					name: "Tomorrowhouse/cart1.png",
 					tit: "장바구니페이지",
 					desc: "Redux Toolkit를 사용하여 redux 스토어를 설정하고 두개의 리듀서를 정의했고, 배열형태의 상품정보 데이터를 정의해서 정적데이터를 불러왔습니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/payment.PNG",
+					name: "Tomorrowhouse/payment.png",
 					tit: "결제완료페이지",
 					desc: " 사진변경요망, React Router 라이브러리의 useNavigate 훅을 이용해 상품상세페이지에 연결되도록 구현했습니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/notion1.PNG",
+					name: "Tomorrowhouse/notion1.png",
 					tit: "노션페이지",
 					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴입니다.\n" ,
 				},
 				{
-					name: "Tomorrowhouse/ppt1.JPG",
+					name: "Tomorrowhouse/ppt1.jpg",
 					tit: "발표자료",
 					desc: " 개발 동기 및 각 기능 별 정리한 ppt 페이지 자료 (직접 제작했습니다.)\n" ,
 				},
