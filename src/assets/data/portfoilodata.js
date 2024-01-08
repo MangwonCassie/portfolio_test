@@ -141,7 +141,7 @@ const portfolioData = {
 					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
 				},
 				{
-					name: "nikeclone/ppt1.JPG",
+					name: "nikeclone/ppt1.jpg",
 					tit: "발표자료",
 					desc: " 개발 동기 및 각 기능 별 정리한 ppt 페이지 자료 (직접 제작했습니다.)\n" ,
 				},
