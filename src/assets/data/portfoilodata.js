@@ -141,6 +141,11 @@ const portfolioData = {
 					desc: " 요구사항 및 기능 구현 내용 정리, 트러블 슈팅, 회고록, 기타 공유 건 정리하는 툴\n" ,
 				},
 				{
+					name: "nikeclone/figma1.JPG",
+					tit: "피그마페이지",
+					desc: "UI디자인툴 Figma를 이용 백엔드/프론트엔드팀원들과 홈페이지 UI디자인에 대한 소통을 진행했습니다.\n" ,
+				},
+				{
 					name: "nikeclone/ppt1.jpg",
 					tit: "발표자료",
 					desc: " 개발 동기 및 각 기능 별 정리한 ppt 페이지 자료 (직접 제작했습니다.)\n" ,
@@ -155,7 +160,7 @@ const portfolioData = {
 			percent: "30%",
 			link: "",
 			github: "https://github.com/SC-Front-End/Tomorrow-House",
-			description: "omorrow House E-commerce Website Clone Project.\n 약 총 8명의 팀원으로 3주 동안 진행하였습니다. 베스프상품목록페이지, 결제완료페이지를 담당했고 프록시 설정 및 rest api 연결 부분을 맡았습니다.",
+			description: "Tomorrow House E-commerce Website Clone Project.\n 약 총 8명의 팀원으로 3주 동안 진행하였습니다. 베스프상품목록페이지, 결제완료페이지를 담당했고 프록시 설정 및 rest api 연결 부분을 맡았습니다.",
 			tech: ["Html & CSS", "Javascript", "React", "Java", "MariaDB", "Spring Boot", "Amazon ec2"],
 			image: [
 				{
