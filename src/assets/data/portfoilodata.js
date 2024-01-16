@@ -221,6 +221,24 @@ const portfolioData = {
 				},
 			],
 		},
+		{
+			name: "Hotel Booking Website Project",
+			period: "2024.-01 - ing",
+			project: "Toy",
+			logo: "",
+			percent: "100%",
+			link: "",
+			github: "",
+			description: "Java Spring Boot back-end base 호텔 부킹 웹사이트",
+			tech: ["Html & CSS", "Javascript", "React", "JAVA", "Spring Boot"],
+			image: [
+				{
+					name: "",
+					tit: "메인페이지",
+					desc: "개발중\n" ,
+				},
+			]
+		},
 		
 		
 		
