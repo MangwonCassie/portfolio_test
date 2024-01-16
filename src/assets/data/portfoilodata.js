@@ -81,6 +81,11 @@ const portfolioData = {
 					tit: "MongoDB 데이터",
 					desc: "MongoDb로 daba를 관리했습니다.\n" ,
 				},
+				{
+					name: "ecommerce/heroku1.JPG",
+					tit: "백엔드 서버 배포",
+					desc: "heroku 백엔드 배포를 통해 FE/BE 파트를 이분화 시키고 동적 서버 사이드 코드를 실행할 수 있게하였습니다.\n" ,
+				},
 				
 				
 				
