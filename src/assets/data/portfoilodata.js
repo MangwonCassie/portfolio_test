@@ -230,7 +230,7 @@ const portfolioData = {
 			link: "",
 			github: "",
 			description: "Java Spring Boot back-end base 호텔 부킹 웹사이트",
-			tech: ["Html & CSS", "Javascript", "React", "JAVA", "Spring Boot"],
+			tech: ["Html & CSS", "Javascript", "React", "JAVA", "Spring Boot", "MySQL"],
 			image: [
 				{
 					name: "",
