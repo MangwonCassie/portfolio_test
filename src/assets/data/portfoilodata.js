@@ -100,6 +100,18 @@ const portfolioData = {
 					주문 프로세스 이동: ​"CHECKOUT NOW" 버튼 클릭 시, 결제 및 주문 완료 페이지로 이동가능하게 구현했습니다.`,
 				},
 				{
+					name: "ecommerce/admin1.JPG",
+					tit: "Admin Page",
+					desc: `차트 및 통계를 활용하여 사용자에게 주요 정보 제공\n.
+					FeaturedInfo 컴포넌트를 사용하여 대시보드 상단에 기본 정보 표시\n.
+					사용자 통계 차트: react-chart library를 이용해 사용자 통계를 시각화한 차트 제공. 사용자가 웹 애플리케이션을 사용한 월별 활동량을 표시합니다.n.
+					월별 활동 통계: ​userRequest를 통해 서버에서 월별 사용자 활동 통계 데이터를 가져옴\n.
+					각 월별 활동량을 차트 데이터로 가공하여 Chart 컴포넌트에 전달됩니다.\n
+					웹 애플리케이션의 활동 분석: ​웹 애플리케이션의 사용자 활동을 월별로 분석하여 차트에 표시합니다.\n
+					사용자의 활동량에 따라 "Active User" 수치를 시각적으로 표현합니다.\n
+					WidgetSm 및 WidgetLg 컴포넌트를 통해 추가적인 정보를 제공. 작은 위젯과 큰 위젯을 통해 다양한 정보를 효과적으로 전달되도록 구현했습니다.\n`,
+				},
+				{
 					name: "ecommerce/page2_api.gif",
 					tit: "POSTMAN API",
 					desc: "POSTMAN 툴을 이용해서 API를 만들었습니다.\n",
