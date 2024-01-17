@@ -100,7 +100,7 @@ const portfolioData = {
 					주문 프로세스 이동: ​"CHECKOUT NOW" 버튼 클릭 시, 결제 및 주문 완료 페이지로 이동가능하게 구현했습니다.`,
 				},
 				{
-					name: "ecommerce/admin1.PNG",
+					name: "ecommerce/admin1.png",
 					tit: "Admin Page/Main page",
 					desc: `차트 및 통계를 활용하여 사용자에게 주요 정보 제공하도록 UI를 구현했습니다.\n
 					FeaturedInfo 컴포넌트를 사용하여 대시보드 상단에 기본 정보 표시.\n
@@ -112,7 +112,7 @@ const portfolioData = {
 					WidgetSm 및 WidgetLg 컴포넌트를 통해 추가적인 정보를 제공. 작은 위젯과 큰 위젯을 통해 다양한 정보를 효과적으로 전달되도록 구현했습니다.\n`,
 				},
 				{
-					name: "ecommerce/admin1_product.PNG",
+					name: "ecommerce/admin1_product.png",
 					tit: "Admin Page/product management list page",
 					desc: `어드민 제품 목록 페이지: 제품 목록 표시: Material-UI의 DataGrid 컴포넌트를 사용하여 제품 목록을 테이블 형태로 표시합니다.\n
 					제품 ID, 제품 이미지, 제품명, 재고량, 가격 등의 정보를 표시합니다.\n
@@ -124,7 +124,7 @@ const portfolioData = {
 					반응형 디자인: ​다양한 화면 크기와 디바이스에 대응하기 위해 반응형 디자인 적용했습니다.\n`,
 				},
 				{
-					name: "ecommerce/admin1_product_detail.PNG",
+					name: "ecommerce/admin1_product_detail.png",
 					tit: "Admin Page/product management detail page",
 					desc: `페이지 초기화: ​useLocation 훅을 사용하여 현재 URL에서 제품 ID를 추출.\n
 					Redux의 useSelector를 이용해 해당 제품 정보를 가져옴.\n
@@ -137,7 +137,7 @@ const portfolioData = {
 					업데이트 수행: 사용자가 입력한 정보를 바탕으로 제품 업데이트 수행. updateProducts API 호출을 통해 업데이트된 정보를 서버에 반영합니다.\n`,
 				},
 				{
-					name: "ecommerce/admin1_user.PNG",
+					name: "ecommerce/admin1_user.png",
 					tit: "Admin Page",
 					desc: `사용자 목록 표시: Material-UI의 DataGrid 컴포넌트를 사용하여 사용자 목록을 테이블 형태로 표시.\n
 					사용자 ID, 사용자 이미지, 사용자명, 이메일, 상태, 거래량 등의 정보를 표시.\n
