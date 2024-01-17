@@ -21,21 +21,10 @@ function AboutTxtWrap() {
 							<strong>FULL-STACK DEVELOPER</strong>
 						</span>
 					</Heading>
-					{/* <p>I’m a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p> */}
 					<p>
-						Greetings! 👋 I am Cassie Kim from Seoul, South Korea.
-						<br />
-						<br />
-						I have a keen interest in embracing new technologies and thrive on effective communication with colleagues, embracing constructive feedback, and engaging in collaborative reviews.
-						<br />
-						<br />
-						Currently, I am actively seeking opportunities as a frontend developer.
-						<br />
-						<br />
-						I take pride in my work and seek a dynamic work environment where I can contribute my skills and experience. I am eager to tackle challenges, and I am on the lookout for a company that values innovation and provides a platform for continuous growth.
-						<br />
-						<br />
-						Feel free to explore my portfolio and get in touch. I look forward to new opportunities and exciting collaborations!
+					<>
+					{homedesc}
+					</>
 					</p>
 				</div>
 				<section>
@@ -71,6 +60,17 @@ function AboutTxtWrap() {
 		</StyledHome>
 	);
 }
+
+//TODO: 띄어쓰기 적용 안되는 거 보니 i18n 충돌문제 해결할 것
+const homedesc =  `Greetings! 👋 I am Cassie Kim from Seoul, South Korea. \n
+	
+	I have a keen interest in embracing new technologies and thrive on effective communication with colleagues, embracing constructive feedback, and engaging in collaborative reviews.\n
+
+	Currently, I am actively seeking opportunities as a frontend developer.\n
+
+	I take pride in my work and seek a dynamic work environment where I can contribute my skills and experience. I am eager to tackle challenges, and I am on the lookout for a company that values innovation and provides a platform for continuous growth.\n\n
+
+	Feel free to explore my portfolio and get in touch. I look forward to new opportunities and exciting collaborations!\n`
 
 const messageslide = keyframes`
 	0% {
