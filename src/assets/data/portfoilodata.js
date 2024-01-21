@@ -31,7 +31,7 @@ const portfolioData = {
 			project: "Toy",
 			logo: "",
 			percent: "100%",
-			link: "",
+			link: "https://mangwoncassie.github.io/",
 			github: "https://github.com/MangwonCassie/MiniProject/tree/3rd_ecommerce",
 			description: "반응형 쇼핑몰 프로젝트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 2개월 동안 진행하였습니다.",
 			tech: ["Html & CSS", "Javascript", "React", "Node.js", "MongoDB", "Express"],
