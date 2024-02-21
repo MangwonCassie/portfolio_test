@@ -264,6 +264,11 @@ const portfolioData = {
 					tit: "트러블 슈팅 + 소감",
 					desc: `다루기 까다로웠던 오류 핸들링 부분을 정리했습니다.\n`,
 				},
+				{
+					name: "",
+					tit: "시연영상",
+					desc: `시연영상 링크입니다. https://youtu.be/oN6C3k9kCIE\n`,
+				},
 
 
 			],
