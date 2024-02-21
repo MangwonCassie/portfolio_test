@@ -186,7 +186,7 @@ const portfolioData = {
 			tech: ["Html & CSS", "Javascript", "TypeSccript", "Node.js", "MongoDB", "Express", "Spring Boot", "S3"],
 			image: [
 				{
-					name: "goodrestaurant/main.PNG",
+					name: "goodrestaurant/main.png",
 					tit: "메인페이지⭐본인 담당⭐",
 					desc: `react-swiper와 get메소드를 통해 동적으로 맛집 목록 데이터를 받아와 슬라이더를 구현했습니다.  \n
 					
@@ -195,12 +195,12 @@ const portfolioData = {
 					웹페이지가 하단으로 정보가 길어질 경우 페이지 상단으로 이동할 수 있는 버튼을 구현했습니다.\n`,
 				},
 				{
-					name: "goodrestaurant/main-dark.PNG",
+					name: "goodrestaurant/main-dark.png",
 					tit: "메인페이지 다크버전",
 					desc: `헤더에서 redux와 redux/toolkit를 통해 darkmode를 관리하는 상태를 만들었고 토글을 이용해 다크 모드를 구현했습니다.\n`,
 				},
 				{
-					name: "goodrestaurant/map.PNG",
+					name: "goodrestaurant/map.png",
 					tit: "키워드로 장소찾는 페이지",
 					desc: ` : Kakao Map API 를 활용하여 '키워드로 장소검색하고 목록으로 표출하기' 기능을 구현했습니다. useEffect, useState를 비롯한 React 관련 라이브러리를 사용했습니다.\n 
 					useState 를 사용하여 맛집 정보와 검색 키워드를 관리하고 useEffect를 이용하여 검색어가 변경될때마다 지도를 갱신하고 맛집 정보를 가져옵니다.\n 
@@ -208,7 +208,7 @@ const portfolioData = {
 					검색 결과는 최대 45개이며 검색어를 입력할 떄마다 handleInputChange 함수를 호출하여 검색 키워드를 업데이트하도록 했습니다.\n​`,
 				},
 				{
-					name: "goodrestaurant/login.PNG",
+					name: "goodrestaurant/login.png",
 					tit: "로그인페이지",
 					desc: `- 아이디: dudnfsla1@naver.com, 비밀번호: dudnfsla1를 입력하여 기능을 확인하세요. \n
 					- 사용자 입력 관리: 사용자가 입력한 아이디(username)와 비밀번호(password)를 상태값으로 관리. Input 컴포넌트를 활용하여 입력 필드 디자인 및 상태가 업데이트됩니다.\n
@@ -217,21 +217,21 @@ const portfolioData = {
 					- 로그인 카카오 쇼셜 로그인 구현\n`
 				},
 				{
-					name: "goodrestaurant/placelist.PNG",
+					name: "goodrestaurant/placelist.png",
 					tit: "맛집 목록 페이지",
 					desc: `- 무한렌더링 구현\n
 					- 카드 컴포넌트 공동화를 했고, 백엔드에서 정보를 받아와 최신순, 인기순, 조회순으로 필터링을 구현했습니다.\n
 					- 카테고리 별로 제품을 나누어 렌더링하게 했고, 하트 표시를 해 내가 좋아요 한 게시글에 업데이트 되도록 구현했습니다.\n`,
 				},
 				{
-					name: "goodrestaurant/detail.PNG",
+					name: "goodrestaurant/detail.png",
 					tit: "맛집 상세 페이지",
 					desc: `- get요청을 통해 제품 데이터를 상세화 했습니다.\n
 					- 댓글 기능을 구현했습니다\n
 					- 수정버튼을 누르면 맛집수정페이지로 이동 되도록 라우팅을 구현했습니다.`,
 				},
 				{
-					name: "goodrestaurant/enroll.PNG",
+					name: "goodrestaurant/enroll.png",
 					tit: "맛집 등록 페이지⭐본인 담당⭐",
 					desc: ` @actbase/react-daum-postcode 주소찾기 api를 get합니다. 이 때 selectedAddress 변수의 값을 URI에 포함하기 전에 encodeURIComponent() 함수를 사용하여 이를 안전하게 인코딩하여특수 문자나 공백이 포함된 주소도 안전하게 서버로 전달할 수 있도록 처리했습니다.\n
 					- 주소찾기api는 위도경도 데이터를 제공하지않으므로 주소찾기 api에서 가져온 주소데이터를 기반으로 카카오 맵 API를 통해 위도 경도를 가져와서 restaurantInfo 객체에 담아줍니다. \n
@@ -240,7 +240,7 @@ const portfolioData = {
 					`,
 				},
 				{
-					name: "goodrestaurant/edit.PNG",
+					name: "goodrestaurant/edit.png",
 					tit: "맛집 수정 페이지",
 					desc: `- 자신이 등록한 게시글만 수정가능하기때문에 redux 상태로 현재 로그인된 아이디의 토큰을 가져옵니다. \n
 					- url에 postId를 가지고 get 메소드를 통해 제품 상세페이지에 대한 json 데이터를 받아오고, 그 데이터들을 입력창들에 초기 상태로 셋팅해줍니다. \n
@@ -248,19 +248,19 @@ const portfolioData = {
 					\n`,
 				},
 				{
-					name: "goodrestaurant/mypage1.PNG",
+					name: "goodrestaurant/mypage1.png",
 					tit: "My Page",
 					desc: `내가 쓴 글을 조회할 수 있습니다. \n
 					찜한 맛집과 나의 맛집을 조회할 수 있습니다.\n,
 					프로필 사진을 등록할 수 있습니다.\n`,
 				},
 				{
-					name: "goodrestaurant/mypage2.PNG",
+					name: "goodrestaurant/mypage2.png",
 					tit: "My Page",
 					desc: `내 정보를 수정할 수 있습니다.\n`,
 				},
 				{
-					name: "goodrestaurant/notion.PNG",
+					name: "goodrestaurant/notion.png",
 					tit: "트러블 슈팅 + 소감",
 					desc: `다루기 까다로웠던 오류 핸들링 부분을 정리했습니다.\n`,
 				},
