@@ -8,7 +8,7 @@ const portfolioData = {
 			percent: "100%",
 			link: "",
 			github: "https://github.com/MangwonCassie/MiniProject/tree/chatapp",
-			description: "채팅 앱 프로젝트입니다.\n다른 사람과 채팅으로 소통 할 수 있는 웹 앱입니다. Firebase를 통해 배포하였고, 약 1주동안 진행하였습니다.",
+			description: "혼자 구현한 채팅 앱 프로젝트입니다.\n다른 사람과 채팅으로 소통 할 수 있는 웹 앱입니다. Firebase를 통해 배포하였고, 약 1주동안 진행하였습니다.",
 			tech: ["Html & CSS", "Javascript", "React", "Node.js", "Axios", "Cors", "Express"],
 			image: [
 				{
@@ -33,7 +33,7 @@ const portfolioData = {
 			percent: "100%",
 			link: "https://mangwoncassie.github.io/",
 			github: "https://github.com/MangwonCassie/MiniProject/tree/3rd_ecommerce",
-			description: "반응형 쇼핑몰 프로젝트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 2개월 동안 진행하였습니다.",
+			description: "혼자 구현한 반응형 쇼핑몰 프로젝트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 2개월 동안 진행하였습니다.",
 			tech: ["Html & CSS", "Javascript", "React", "Node.js", "MongoDB", "Express"],
 			image: [
 				{
@@ -182,7 +182,7 @@ const portfolioData = {
 			percent: "40%",
 			link: "",
 			github: "https://github.com/SupercodingProject-3th/FRONT-END",
-			description: "반응형 맛집 리뷰 사이트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 6주 동안 진행하였습니다.",
+			description: "프론트5명, 백엔드 9명으로 구성된 웹/앱 반응형 맛집 리뷰 사이트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 6주 동안 진행하였습니다.",
 			tech: ["Html & CSS", "Javascript", "TypeSccript", "Node.js", "MongoDB", "Express", "Spring Boot", "S3"],
 			image: [
 				{
@@ -196,7 +196,7 @@ const portfolioData = {
 				},
 				{
 					name: "goodrestaurant/main-dark.png",
-					tit: "메인페이지 다크버전",
+					tit: "메인페이지 다크버전⭐본인 담당⭐",
 					desc: `헤더에서 redux와 redux/toolkit를 통해 darkmode를 관리하는 상태를 만들었고 토글을 이용해 다크 모드를 구현했습니다.\n`,
 				},
 				{
@@ -241,7 +241,7 @@ const portfolioData = {
 				},
 				{
 					name: "goodrestaurant/edit.png",
-					tit: "맛집 수정 페이지",
+					tit: "맛집 수정 페이지⭐본인 담당⭐",
 					desc: `- 자신이 등록한 게시글만 수정가능하기때문에 redux 상태로 현재 로그인된 아이디의 토큰을 가져옵니다. \n
 					- url에 postId를 가지고 get 메소드를 통해 제품 상세페이지에 대한 json 데이터를 받아오고, 그 데이터들을 입력창들에 초기 상태로 셋팅해줍니다. \n
 					- 멀티파트일 경우 put api메소드가 아닌 post메소드로 데이터를 전송해 수정 기능을 구현했습니다.\n
@@ -299,7 +299,7 @@ const portfolioData = {
 			percent: "30%",
 			link: "https://cassie1107.github.io/",
 			github: "https://github.com/SC-Front-End/Nike-Clone",
-			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 팀원으로 2주 동안 진행하였습니다. 상품상세페이지와 배포를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
+			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 프론트 팀원으로 2주 동안 진행하였습니다. 상품상세페이지와 배포를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
 			tech: ["Html & CSS", "Javascript", "React"],
 			image: [
 				{
@@ -347,7 +347,7 @@ const portfolioData = {
 			percent: "30%",
 			link: "",
 			github: "https://github.com/SC-Front-End/Tomorrow-House",
-			description: "Tomorrow House E-commerce Website Clone Project.\n 약 총 8명의 팀원으로 3주 동안 진행하였습니다. 베스프상품목록페이지, 결제완료페이지를 담당했고 프록시 설정 및 rest api 연결 부분을 맡았습니다.",
+			description: "Tomorrow House E-commerce Website Clone Project.\n 약 4명의 프론트, 4명의 백엔드 총 8명의 팀원으로 3주 동안 진행하였습니다. 베스프상품목록페이지, 결제완료페이지를 담당했고 프록시 설정 및 rest api 연결 부분을 맡았습니다.",
 			tech: ["Html & CSS", "Javascript", "React", "Java", "MariaDB", "Spring Boot", "Amazon ec2"],
 			image: [
 				{
