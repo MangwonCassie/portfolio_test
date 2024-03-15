@@ -37,6 +37,11 @@ const portfolioData = {
 			tech: ["Html & CSS", "Javascript", "React", "Node.js", "MongoDB", "Express"],
 			image: [
 				{
+					name: "ecommerce/programming_background.jpg",
+					tit: "개발배경",
+					desc: `풀스택으로 백엔드/프론트엔드의 유기적인 흐름을 이해하기 위한 실제 상용가능한 영어버전 쇼핑몰 프로젝트를 만들었습니다. \n`,
+				},
+				{
 					name: "ecommerce/page1_main.JPG",
 					tit: "메인페이지",
 					desc: `공지사항 표시: Announcement 컴포넌트를 이용하여 홈페이지 상단에 공지사항을 표시했습니다. \n
@@ -180,11 +185,16 @@ const portfolioData = {
 			project: "Toy",
 			logo: "",
 			percent: "40%",
-			link: "",
+			link: "https://front-3i4mdxr85-kimduhee7524s-projects.vercel.app",
 			github: "https://github.com/SupercodingProject-3th/FRONT-END",
 			description: "프론트5명, 백엔드 9명으로 구성된 웹/앱 반응형 맛집 리뷰 사이트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 6주 동안 진행하였습니다.",
 			tech: ["Html & CSS", "Javascript", "TypeSccript", "Node.js", "MongoDB", "Express", "Spring Boot", "S3"],
 			image: [
+				{
+					name: "goodrestaurant/ttokanmap_programmingbackground.jpg",
+					tit: "개발 배경",
+					desc: `기존에 없던 지도 위주의 맛집 커뮤니티를 직접 팀원끼리 기획하고 구현했습니다.\n`,
+				},
 				{
 					name: "goodrestaurant/main.png",
 					tit: "메인페이지⭐본인 담당⭐",
@@ -302,6 +312,11 @@ const portfolioData = {
 			description: "Nike Korea E-commerce Website Clone Project.\n 약 총 5명의 프론트 팀원으로 2주 동안 진행하였습니다. 상품상세페이지와 배포를 담당했고 회의를 통한 코드 리팩토링 진행했습니다. ",
 			tech: ["Html & CSS", "Javascript", "React"],
 			image: [
+				{
+					name: "nikeclone/nikeproject.JPG",
+					tit: "개발배경",
+					desc: "클라이언트 사이드만 개발하기 위해 UI/UX가 깔끔하다고 생각했던 나이키 홈페이지를 리액트로 재구현했습니다.\n",
+				},
 				{
 					name: "nikeclone/main1.JPG",
 					tit: "메인페이지",
