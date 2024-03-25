@@ -58,10 +58,10 @@ const skillData = {
 		},
 	
 		{
-			period: "2023.06 - ing",
+			period: "2023.06 - 2024.03",
 			position: "온라인 부트캠프",
 			company: "슈퍼코딩",
-			explain: "HTML, JAVASCRIPT, REACT, NETLIFY, GITHUB, 그룹 프로젝트 과정 커리큘럼에서 프론트엔드 웹사이트를 개발할 수 있는 지식들을 익혔습니다. ",
+			explain: "HTML, JAVASCRIPT, REACT, NETLIFY, GITHUB, 3회에 거친 그룹 프로젝트 과정 커리큘럼에서 프론트엔드 웹사이트를 개발할 수 있는 지식들을 익혔습니다. ",
 		},
 		{
 			period: "2023.01 - 2023.05",
