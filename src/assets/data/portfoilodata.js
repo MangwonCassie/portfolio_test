@@ -315,7 +315,7 @@ const portfolioData = {
 				{
 					name: "nikeclone/nikeproject.JPG",
 					tit: "개발배경",
-					desc: "클라이언트 사이드만 개발하기 위해 UI/UX가 깔끔하다고 생각했던 나이키 홈페이지를 리액트로 재구현했습니다.\n",
+					desc: "클라이언트 사이드만 개발하기 위해 UI/UX가 깔끔하다고 생각했던 나이키 홈페이지를 리액트로 마이그레이션했습니다.\n",
 				},
 				{
 					name: "nikeclone/main1.JPG",
@@ -420,20 +420,41 @@ const portfolioData = {
 		},
 		{
 			name: "Hotel Booking Website Project",
-			period: "2024.-01 - ing",
+			period: "2024.-02 - ing",
 			project: "Toy",
 			logo: "",
 			percent: "100%",
 			link: "",
-			github: "",
+			github: "https://github.com/MangwonCassie/Spring-hotelBookingWebsite-Backend",
 			description: "Java Spring Boot back-end base 호텔 부킹 웹사이트",
 			tech: ["Html & CSS", "Javascript", "React", "JAVA", "Spring Boot", "MySQL"],
 			image: [
 				{
-					name: "",
+					name: "hotelwebsite/main.png",
 					tit: "메인페이지",
 					desc: "개발중\n",
 				},
+				{
+					name: "hotelwebsite/browse-all-rooms.png",
+					tit: "룸 목록페이지",
+					desc: "개발중\n",
+				},
+				{
+					name: "hotelwebsite/existing-rooms.png",
+					tit: "상세편집목록페이지",
+					desc: "개발중\n",
+				},
+				{
+					name: "hotelwebsite/editroom.png",
+					tit: "상세편집페이지",
+					desc: "개발중\n",
+				},
+				{
+					name: "hotelwebsite/login.png",
+					tit: "로그인페이지",
+					desc: "개발중\n",
+				},
+
 			]
 		},
 
