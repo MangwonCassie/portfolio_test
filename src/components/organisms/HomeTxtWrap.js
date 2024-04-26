@@ -47,12 +47,6 @@ function HomeTxtWrap() {
 						<li>
 							<span>Email : </span>dudnfsla1@naver.com
 						</li>
-						{/* <li>
-							<span>Name : </span>Steve
-						</li>
-						<li>
-							<span>Name : </span>Steve
-						</li> */}
 					</ul>
 				</section>
 				<Link to="/about" className="more-btn">
