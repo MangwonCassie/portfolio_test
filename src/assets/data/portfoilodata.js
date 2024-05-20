@@ -424,7 +424,7 @@ const portfolioData = {
 			project: "Toy",
 			logo: "",
 			percent: "100%",
-			link: "",
+			link: "https://spring-hotel-booking-website-front.vercel.app/",
 			github: "https://github.com/MangwonCassie/Spring-hotelBookingWebsite-Backend",
 			description: "Java Spring Boot back-end base 호텔 부킹 웹사이트",
 			tech: ["Html & CSS", "Javascript", "React", "JAVA", "Spring Boot", "MySQL"],
