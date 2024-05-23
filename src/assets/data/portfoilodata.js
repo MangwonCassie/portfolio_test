@@ -424,7 +424,7 @@ const portfolioData = {
 			project: "Toy",
 			logo: "",
 			percent: "100%",
-			link: "https://spring-hotel-booking-website-front.vercel.app",
+			link: "https://spring-hotel-booking-website-front-git-master-yeoouls-projects.vercel.app/",
 			github: "https://github.com/MangwonCassie/Spring-hotelBookingWebsite-Backend",
 			description: "Java Spring Boot back-end base 호텔 부킹 웹사이트",
 			tech: ["Html & CSS", "Javascript", "React", "JAVA", "Spring Boot", "MySQL"],
@@ -432,7 +432,7 @@ const portfolioData = {
 				{
 					name: "hotelwebsite/main.png",
 					tit: "메인페이지",
-					desc: "개발중\n",
+					desc: "개발중 테스트아이디 : cass@gmail.com, 비밀번호: 12341234\n",
 				},
 				{
 					name: "hotelwebsite/browse-all-rooms.png",
