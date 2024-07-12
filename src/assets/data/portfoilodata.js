@@ -450,14 +450,24 @@ const portfolioData = {
 					desc: "개발중\n",
 				},
 				{
+					name: "hotelwebsite/booking-success.png",
+					tit: "부킹성공페이지",
+					desc: "백엔드에서 부킹이 성공하면 부킹확인번호를 발송해줍니다.\n",
+				},
+				{
+					name: "hotelwebsite/booking.png",
+					tit: "부킹조회페이지",
+					desc: "부킹확인번호로 해당 부킹번호에 대한 예약정보를 조회할 수 있습니다.\n",
+				},
+				{
 					name: "hotelwebsite/login.png",
 					tit: "로그인페이지",
 					desc: "개발중\n",
 				},
 				{
-					name: "hotelwebsite/hotellist.png",
-					tit: "주소 검색 후 그주소에서 가까운 호텔 안내해주는 페이지",
-					desc: "개발중\n",
+					name: "hotelwebsite/hotelapi.png",
+					tit: "호텔안내페이지",
+					desc: "주소 검색 후 그주소에서 가까운 호텔 안내해주는 페이지\n",
 				},
 
 			]
