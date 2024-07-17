@@ -187,6 +187,7 @@ const portfolioData = {
 			percent: "40%",
 			link: "https://front-3i4mdxr85-kimduhee7524s-projects.vercel.app",
 			github: "https://github.com/SupercodingProject-3th/FRONT-END",
+			videolink: "https://www.youtube.com/watch?v=oN6C3k9kCIE&list=PLwf25wVx6Fx4s0LP4Smh8Qrs9vrFID4t-&index=1",
 			description: "프론트5명, 백엔드 9명으로 구성된 웹/앱 반응형 맛집 리뷰 사이트입니다.\n 깃허브 페이지를 통해 배포하였고, 약 6주 동안 진행하였습니다.",
 			tech: ["Html & CSS", "Javascript", "TypeSccript", "Node.js", "MongoDB", "Express", "Spring Boot", "S3"],
 			image: [
@@ -426,6 +427,7 @@ const portfolioData = {
 			percent: "100%",
 			link: "https://spring-hotel-booking-website-front-git-master-yeoouls-projects.vercel.app/",
 			github: "https://github.com/MangwonCassie/Spring-hotelBookingWebsite-Backend",
+			videolink: "https://www.youtube.com/watch?v=GAISfGUhurw&list=PLwf25wVx6Fx4s0LP4Smh8Qrs9vrFID4t-&index=3",
 			description: "Java Spring Boot back-end base 호텔 부킹 웹사이트",
 			tech: ["Html & CSS", "Javascript", "React", "JAVA", "Spring Boot", "MySQL"],
 			image: [

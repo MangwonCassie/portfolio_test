@@ -55,6 +55,12 @@ function DetailWrap(props) {
 									Github : <span>Link</span>
 								</a>
 							)}
+							{props.project.videolink && (
+								<a href={props.project.videolink} target="_blank" rel="noopener noreferrer">
+									<i className="far fa-file-alt"></i>
+									VideoLink : <span>Link</span>
+								</a>
+							)}
 						</div>
 					</div>
 					<ul>{props.project.image && imgList}</ul>
